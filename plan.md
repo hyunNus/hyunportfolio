@@ -6,18 +6,16 @@ LinkedIn 기준의 최신 경력 정보를 중심으로 만든 한국어 개인 
 
 ## Design
 
-- **Design movement:** CV / technical document minimalism
-- **Core principles:** 짧은 문장, 선명한 정보 계층, 얇은 구분선, 충분한 여백
-- **Color philosophy:** 흰 배경과 검은 본문을 기본으로 하고 링크와 작은 포인트에만 코발트 블루를 사용합니다.
-- **Layout paradigm:** 중앙 정렬 카드 그리드 대신 넓은 본문 폭의 문서형 단일 흐름과 세로 타임라인을 사용합니다.
-- **Signature elements:** 대문자 섹션 라벨, 얇은 수평선, 날짜가 고정된 경력 타임라인
-- **Interaction philosophy:** 링크와 앵커 이동만 사용하고, 정보 이해를 방해하는 인터랙션은 배제합니다.
-- **Animation:** 기본적으로 사용하지 않습니다. 시스템이 모션 감소를 요청한 경우에도 동일하게 정적 표시합니다.
-- **Typography:** 시스템 한글 산세리프와 모노스페이스 날짜/기술 라벨을 조합합니다.
-- **Brand essence:** 비정형 데이터에서 신뢰할 수 있는 LLM/RAG 시스템을 만드는 AI 데이터 개발자. 정확함, 담백함, 실행력.
-- **Brand voice:** 짧고 사실 중심으로 씁니다. 예: “비정형 데이터를 모델이 이해할 수 있는 구조로 바꿉니다.” / “학습부터 평가와 서빙까지 연결합니다.”
-- **Wordmark:** 이름 옆에 작은 `AI DATA / 01` 식별 라벨을 두어 문서 헤더처럼 표현합니다.
-- **Signature brand color:** cobalt blue `#2855d9`
+- **Design movement:** `hyunNus.github.io`의 미니멀 아카이브 스타일
+- **Core principles:** 영문 이름과 소개, 짧은 문장, 얇은 구분선, 충분한 여백
+- **Color philosophy:** 색상 장식 없이 흰색/검은색과 회색만 사용하며, 사용자가 라이트·다크 모드를 전환합니다.
+- **Layout paradigm:** 문서형 단일 흐름과 세로 타임라인을 사용합니다.
+- **Signature elements:** 작은 모노스페이스 섹션 라벨, 흑백 원형 프로필, 아이콘 연락처
+- **Interaction philosophy:** 앵커 이동, 외부 링크, 연락처 아이콘, 테마 전환만 제공합니다.
+- **Animation:** 사용하지 않습니다.
+- **Typography:** 시스템 산세리프와 모노스페이스 라벨을 조합합니다.
+- **Brand essence:** Hyunwoo Lee의 AI·데이터 작업을 기록하는 개인 아카이브.
+- **Brand voice:** 기존 사이트의 소개문을 그대로 사용합니다.
 
 ## Structure
 
