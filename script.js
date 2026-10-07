@@ -10,11 +10,19 @@
     toggle?.setAttribute('aria-label', value === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
   };
 
+  const changeTheme = (value) => {
+    if (document.startViewTransition) {
+      document.startViewTransition(() => applyTheme(value));
+    } else {
+      applyTheme(value);
+    }
+  };
+
   applyTheme(theme);
   toggle?.addEventListener('click', () => {
     const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
     localStorage.setItem('portfolio-theme', next);
-    applyTheme(next);
+    changeTheme(next);
   });
 
   let lastTrigger = null;
